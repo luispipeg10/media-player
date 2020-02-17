@@ -1,0 +1,7 @@
+.body-container {
+    width: 100%;
+    min-height: calc(100vh - 110px);
+    background: #151515;
+    overflow-y: auto;
+    overflow-x: hidden;
+}

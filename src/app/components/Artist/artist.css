@@ -1,0 +1,113 @@
+.artist-header {
+    width: 100%;
+    height: 250px;
+    background: linear-gradient(to bottom, rgba(48,48,51,1) 0%, rgba(89,89,89,1) 50%, rgba(79,78,78,1) 58%, rgba(0,0,0,1) 85%, rgba(0,0,0,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.artist-body {
+    width: 60%;
+    padding: 10px;
+    margin: 20px auto;
+}
+
+.artist-content-image {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background: #000000;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.artist-content-image img {
+    height: 100%;
+}
+
+.artist-content-name {
+    margin-top: 40px;
+    color: #ffffff;
+    display: flex;
+    align-items: flex-start;
+}
+
+.artist-content-name span {
+    font-size: 10px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.artist-content-name span i {
+    font-size: 10px;
+    margin-right: 5px;
+    color: yellow;
+}
+
+.artist-body-title {
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.artist-body-item {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+}
+
+.artist-body-item-container {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+.artist-body-item i {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.artist-body-item-description {
+    display: flex;
+    flex-direction: column;
+}
+
+.album-tracks {
+    font-size: 10px;
+}
+
+.album-body-image {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 15px;
+}
+
+.album-body-image img {
+    width: 100%;
+}
+
+.artist-header .artist-back {
+    position: absolute;
+    left: 20px;
+    font-size: 12px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}

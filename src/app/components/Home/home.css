@@ -1,0 +1,46 @@
+.home-artist-item {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background: #000000;
+    display: inline-flex;
+    margin: 20px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.home-up-item {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0,0.6);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    transition: all ease .5s;
+}
+
+.home-up-item:hover {
+    background: rgba(0,0,0,0.8);
+}
+
+.home-artist-item:hover img {
+    height: 110%;
+}
+
+.home-artist-item img {
+    height: 100%;
+    margin: auto;
+    transition: all ease .5s;
+}
